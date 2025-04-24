@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrightMinds Tutoring</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1><i class="fas fa-book-open"></i> BrightMinds</h1>
+                </div>
+                <nav>
+                    <ul class="nav-menu">
+                        <li class="nav-item"><a href="#home" class="active">Home</a></li>
+                        <li class="nav-item"><a href="#services">Services</a></li>
+                        <li class="nav-item"><a href="#about">About</a></li>
+                        <li class="nav-item"><a href="#testimonials">Testimonials</a></li>
+                        <li class="nav-item"><a href="#contact">Contact</a></li>
+                    </ul>
+                    <div class="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+<!-- Update this part in the hero section of the HTML file -->
+<section id="home" class="hero active-section">
+    <div class="container">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h2>Unlock Your Learning Potential</h2>
+                <p>Personalized tutoring services to help you excel academically and build confidence in your abilities.</p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn primary-btn">Get Started</a>
+                    <a href="#services" class="btn secondary-btn">Learn More</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Add this new section below the existing hero-content -->
+        <div class="home-features">
+            <div class="feature-heading">
+                <h3>Why Choose BrightMinds?</h3>
+            </div>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <div class="feature-text">
+                        <h4>Expert Tutors</h4>
+                        <p>Learn from certified educators with years of experience in their subject areas.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <div class="feature-text">
+                        <h4>Personalized Learning</h4>
+                        <p>Customized plans tailored to your specific learning style and academic goals.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-laptop-house"></i>
+                    </div>
+                    <div class="feature-text">
+                        <h4>Flexible Sessions</h4>
+                        <p>Choose between in-person or online tutoring to fit your schedule and preferences.</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="feature-text">
+                        <h4>Proven Results</h4>
+                        <p>Our students see an average grade improvement of 1-2 letter grades within 3 months.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Add a statistics section -->
+        <div class="stats-section">
+            <div class="stat-item">
+                <div class="stat-number" data-count="5000">0</div>
+                <div class="stat-label">Students Helped</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" data-count="150">0</div>
+                <div class="stat-label">Expert Tutors</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" data-count="25">0</div>
+                <div class="stat-label">Subjects Covered</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" data-count="98">0</div>
+                <div class="stat-label">Satisfaction Rate</div>
+                <div class="stat-symbol">%</div>
+            </div>
+        </div>
+        
+        <!-- Add a quick enrollment form -->
+        <div class="quick-enrollment">
+            <h3>Start Your Learning Journey Today</h3>
+            <p>Enter your information below for a free consultation</p>
+            <form class="quick-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <select required>
+                            <option value="" disabled selected>Select Subject</option>
+                            <option value="math">Mathematics</option>
+                            <option value="science">Science</option>
+                            <option value="language">Languages</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn primary-btn">Get Free Consultation</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+    <section id="services" class="services-section">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <h3>Math Tutoring</h3>
+                    <p>From basic arithmetic to advanced calculus, our expert tutors make math approachable and engaging.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <h3>Science Support</h3>
+                    <p>Biology, Chemistry, Physics and more - we help students grasp complex scientific concepts.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-language"></i>
+                    </div>
+                    <h3>Language Arts</h3>
+                    <p>Improve reading comprehension, writing skills, and communication abilities with our language experts.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="image.png" alt="Tutor and student">
+                </div>
+                <div class="about-text">
+                    <h2 class="section-title">About BrightMinds</h2>
+                    <p>Founded in 2015, BrightMinds Tutoring has helped thousands of students achieve academic success. Our approach focuses on personalized learning plans that address each student's unique needs and learning style.</p>
+                    <p>Our qualified tutors are passionate about education and dedicated to helping students build confidence, develop effective study habits, and reach their full potential.</p>
+                    <a href="#contact" class="btn primary-btn">Join Us Today</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials-section">
+        <div class="container">
+            <h2 class="section-title">What Our Students Say</h2>
+            <div class="testimonials-slider">
+                <div class="testimonial active">
+                    <div class="quote">
+                        <i class="fas fa-quote-left"></i>
+                        <p>My math grades improved from a C to an A after just three months with my BrightMinds tutor. They made complex concepts easy to understand!</p>
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                    <div class="student-info">
+                        <h4>Emily R.</h4>
+                        <p>High School Student</p>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="quote">
+                        <i class="fas fa-quote-left"></i>
+                        <p>The personalized approach at BrightMinds helped my son overcome his reading challenges. His confidence has soared!</p>
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                    <div class="student-info">
+                        <h4>Michael T.</h4>
+                        <p>Parent</p>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="quote">
+                        <i class="fas fa-quote-left"></i>
+                        <p>I was struggling with chemistry until I started with BrightMinds. My tutor's patience and knowledge made all the difference.</p>
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                    <div class="student-info">
+                        <h4>Sarah K.</h4>
+                        <p>College Student</p>
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                    <div class="slider-dots">
+                        <span class="dot active" data-index="0"></span>
+                        <span class="dot" data-index="1"></span>
+                        <span class="dot" data-index="2"></span>
+                    </div>
+                    <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>123 Learning Lane, Education City</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <p>(555) 123-4567</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>info@brightminds.com</p>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <select id="service" required>
+                            <option value="">Select Service</option>
+                            <option value="math">Math Tutoring</option>
+                            <option value="science">Science Support</option>
+                            <option value="language">Language Arts</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3><i class="fas fa-book-open"></i> BrightMinds</h3>
+                    <p>Illuminating minds, empowering futures.</p>
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 BrightMinds Tutoring. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
